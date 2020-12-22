@@ -43,8 +43,8 @@
 		49BF130722D6D49B0037FB61 /* BKConcurrentSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BF130422D6D49B0037FB61 /* BKConcurrentSet.m */; };
 		49BF130822D6D49B0037FB61 /* BKConcurrentSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BF130422D6D49B0037FB61 /* BKConcurrentSet.m */; };
 		49BF130922D6D49B0037FB61 /* BKConcurrentSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BF130422D6D49B0037FB61 /* BKConcurrentSet.m */; };
-		49BF130C22D6D9940037FB61 /* BKLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF130A22D6D9940037FB61 /* BKLock.h */; };
-		49BF130D22D6D9940037FB61 /* BKLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF130A22D6D9940037FB61 /* BKLock.h */; };
+		49BF130C22D6D9940037FB61 /* BKLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF130A22D6D9940037FB61 /* BKLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49BF130D22D6D9940037FB61 /* BKLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF130A22D6D9940037FB61 /* BKLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49BF130E22D6D9940037FB61 /* BKLock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49BF130B22D6D9940037FB61 /* BKLock.mm */; };
 		49BF130F22D6D9940037FB61 /* BKLock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49BF130B22D6D9940037FB61 /* BKLock.mm */; };
 		49BF131022D6D9940037FB61 /* BKLock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49BF130B22D6D9940037FB61 /* BKLock.mm */; };
@@ -131,7 +131,7 @@
 		49BF137522D70AE30037FB61 /* BlocksKit+UIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA50B1B3A6720004B70F8 /* BlocksKit+UIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49BF137622D70AE30037FB61 /* BlocksKit+Concurrency.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF132122D703F30037FB61 /* BlocksKit+Concurrency.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49BF137722D70AE30037FB61 /* BlocksKit+All.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF132222D704560037FB61 /* BlocksKit+All.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49BF137822D70AEA0037FB61 /* BKLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF130A22D6D9940037FB61 /* BKLock.h */; };
+		49BF137822D70AEA0037FB61 /* BKLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BF130A22D6D9940037FB61 /* BKLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49E91DFB202AEBF30046C4DD /* QLPreviewController+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA48C1B3A6657004B70F8 /* QLPreviewController+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4261B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4271B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };

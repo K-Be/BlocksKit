@@ -15,5 +15,6 @@
 #import <BlocksKit/BKConcurrentIndexSet.h>
 #import <BlocksKit/BKConcurrentSet.h>
 #import <BlocksKit/BKConcurrentDictionary.h>
+#import <BlocksKit/BKLock.h>
 
 #endif /* BlocksKit_Concurrency_h */

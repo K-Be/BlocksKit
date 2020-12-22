@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'BlocksKit'
-  s.version               = '4.5.0'
+  s.version               = '4.5.1'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had.'
   s.homepage              = 'https://github.com/K-Be/BlocksKit'
@@ -49,7 +49,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Concurrency' do |ss|
     ss.dependency 'BlocksKit/Core'
-    ss.source_files = 'BlocksKit/Concurrency/*.{h,m,mm}','BlocksKit/BlocksKit+Concurrency.h' 
-    ss.private_header_files = 'BlocksKit/Concurrency/BKLock.h'
+    ss.source_files = 'BlocksKit/Concurrency/*.{h,m,mm}','BlocksKit/BlocksKit+Concurrency.h'
   end
 end
